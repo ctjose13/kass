@@ -29,7 +29,7 @@ const [visibility, setVisibility] = useState(false);
           <View style={styles.modalContainer}>
             <View style={styles.modalSurface}>
             <Text style={styles.text}>
-              Partes dos materiais utilizados são marcas comerciais e/ou obras com direitos autorais da Epic Games, Inc. Todos os direitos reservados pela Epic. Este material não é oficial e não é endossado pela Epic.
+              Partes de los materiales utilizados son marcas comerciales y / o trabajos con derechos de autor de Epic Games, Inc. Todos los derechos reservados por Epic. Este material no es oficial y no está respaldado por Epic.
             </Text>
             </View>
           </View>
