@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Fortnite XP Coins",
+    "slug": "fortnite_xp_coins",
+    "privacy": "public",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0c71b5"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "Fortnite XP Coins",
+      "startUrl": "/fortnite_xp_coins/",
+      "themeColor": "#0c71b5",
+      "orientation": "portrait",
+      "dir": "ltr",
+      "display": "standalone",
+      "shortName": "XpCoins",
+      "icons": [
+        {
+          "src": "/fortnite_xp_coins/pwa/chrome-icon/chrome-icon-144.png",
+          "sizes": "144x144",
+          "type": "image/png"
+        },
+        {
+          "src": "/fortnite_xp_coins/pwa/chrome-icon/chrome-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/fortnite_xp_coins/pwa/chrome-icon/chrome-icon-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#0c71b5"
+    },
+    "description": "This app helps you to keep track of the XP coins you've already collected in Fortnite. Use it to catch them all!",
+    "platforms" : ["ios", "android", "web"],
+    "githubUrl": "https://github.com/lucas-almeida-r/fortnite_xp_coins"
+  }
+}
